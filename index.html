@@ -3,93 +3,93 @@
 <head>
   <meta charset="UTF-8">
   <title>Giordano's Garage</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Font Awesome for social icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Segoe UI', sans-serif;
       margin: 0;
-      text-align: center;
-      background-color: #f4f4f4;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
     }
 
     header {
-      font-size: 40pt;
-      font-weight: bold;
-      padding: 40px 0;
-      background-color: #333;
-      color: white;
+      text-align: center;
+      padding: 30px 20px 10px;
     }
 
-    main {
-      font-size: 18px;
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    header h2 {
+      font-size: 1.5rem;
+      font-weight: 400;
+      color: #555;
+      margin-top: 0;
+    }
+
+    .video-container {
+      display: flex;
+      justify-content: center;
       padding: 20px;
     }
 
-    h2 {
-      margin-top: 40px;
-      font-size: 24px;
-      color: #333;
-    }
-
     iframe {
-      margin-top: 10px;
+      width: 100%;
+      max-width: 720px;
+      height: 405px;
+      border: none;
+      border-radius: 8px;
     }
 
     footer {
       background-color: #222;
+      color: #ccc;
+      text-align: center;
       padding: 20px;
-      display: flex;
-      justify-content: center;
-      gap: 30px;
-      flex-wrap: wrap;
+      font-size: 0.9rem;
+      margin-top: auto;
     }
 
-    .social-icon {
-      width: 50px;
-      height: 50px;
-      transition: transform 0.2s;
+    footer a {
+      margin: 0 10px;
+      color: #ccc;
+      text-decoration: none;
     }
 
-    .social-icon:hover {
-      transform: scale(1.1);
+    footer a:hover {
+      color: #fff;
+    }
+
+    footer i {
+      margin-right: 6px;
     }
   </style>
 </head>
 <body>
 
-  <header>Giordano's Garage</header>
+  <header>
+    <h1>Giordano's Garage</h1>
+    <h2>A channel dedicated to helping you with your small engine repair</h2>
+  </header>
 
-  <main>
-    <p>Please subscribe my YouTube channel--and leave a comment saying you found me here!: 
-      <a href="https://www.youtube.com/channel/UCTGMTM02Jh3hHY-_pd-fJWg" target="_blank">
-        Giordano's Garage
-      </a>.
-    </p>
-
-    <h2>In the meantime--please check out my latest video!</h2>
-
-    <!-- ✅ Official YouTube embed code -->
-    <iframe width="660" height="415" 
-      src="https://www.youtube.com/embed/YP3hVHKAG70?si=vM7qsuVite78otor" 
-      title="YouTube video player" frameborder="0" 
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-      referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-    </iframe>
-  </main>
+  <div class="video-container">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Lha3hFaXd54?si=Tae2WgcC6rCOEh8I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
 
   <footer>
-    <a href="https://www.youtube.com/channel/UCTGMTM02Jh3hHY-_pd-fJWg" target="_blank">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282013-2017%29.png" alt="YouTube" class="social-icon">
-    </a>
-    <a href="https://www.facebook.com" target="_blank">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook" class="social-icon">
-    </a>
-    <a href="https://www.instagram.com" target="_blank">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg" alt="Instagram" class="social-icon">
-    </a>
-    <a href="https://www.twitter.com" target="_blank">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/X_logo_2023.svg" alt="X" class="social-icon">
-    </a>
-  </footer>
-
-</body>
-</html>
+    <p>&copy; 2025 Giordano's Garage. All rights reserved.</p>
+    <div style="margin-top: 10px;">
+      <a href="https://www.youtube.com/@GiordanosGarage" target="_blank">
+        <i class="fab fa-youtube"></i>YouTube
+      </a>
+      <a href="https://www.instagram.com/GiordanosGarage" target="_blank">
+        <i class="fab fa-instagram"></i>Instagram
+     
